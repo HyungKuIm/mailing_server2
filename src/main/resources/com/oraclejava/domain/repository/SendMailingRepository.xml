@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+	"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.oraclejava.domain.repository.SendMailingRepository">
+	<select id="findImmediateMails" resultType="SendMailing">
+		SELECT
+			num,
+			job_id,
+			from_email_addr,
+			title,
+			body,
+			reserved_date,
+			deliveried_date,
+			send_type,
+			content_type,
+			regdate,
+			to_email_addr,
+			uid
+		FROM
+			onjedu_send_mailing
+		WHERE
+			reserved_date &lt;= now()
+			AND deliveried_date = '00000000000000'
+		ORDER BY
+			reserved_date
+	</select>
+	
+	<update id="updateMailing" parameterType="SendMailing">
+		UPDATE onjedu_send_mailing
+		SET deliveried_date = now()
+		WHERE job_id = #{jobId}
+		AND 	reserved_date = #{reservedDate}
+		AND    regdate = #{regdate}
+			
+	</update>
+
+</mapper>

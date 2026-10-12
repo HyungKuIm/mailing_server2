@@ -1,0 +1,11 @@
+/home/user/Documents/workspace-sts-3.9.18.RELEASE/mailing_server/src/main/java/com/oraclejava/domain/service/MemberService.java
+/home/user/Documents/workspace-sts-3.9.18.RELEASE/mailing_server/src/main/java/com/oraclejava/domain/model/Member.java
+/home/user/Documents/workspace-sts-3.9.18.RELEASE/mailing_server/src/main/java/com/oraclejava/domain/service/MemberServiceImpl.java
+/home/user/Documents/workspace-sts-3.9.18.RELEASE/mailing_server/src/main/java/com/oraclejava/domain/model/SendMailing.java
+/home/user/Documents/workspace-sts-3.9.18.RELEASE/mailing_server/src/main/java/com/oraclejava/domain/service/SendMailingService.java
+/home/user/Documents/workspace-sts-3.9.18.RELEASE/mailing_server/src/main/java/com/oraclejava/domain/repository/SendMailingRepository.java
+/home/user/Documents/workspace-sts-3.9.18.RELEASE/mailing_server/src/main/java/com/oraclejava/domain/service/SendMailingServiceImpl.java
+/home/user/Documents/workspace-sts-3.9.18.RELEASE/mailing_server/src/main/java/com/oraclejava/mailing_server/SendMailMain.java
+/home/user/Documents/workspace-sts-3.9.18.RELEASE/mailing_server/src/main/java/com/oraclejava/domain/config/AppConfig.java
+/home/user/Documents/workspace-sts-3.9.18.RELEASE/mailing_server/src/main/java/com/oraclejava/domain/repository/MemberRepository.java
+/home/user/Documents/workspace-sts-3.9.18.RELEASE/mailing_server/src/main/java/com/oraclejava/mailing_server/MailMail.java
